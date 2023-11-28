@@ -22,7 +22,7 @@
 	<%=request.getAttribute("LoginErrMsg") == null ? "" : request.getAttribute("LoginErrMsg")%>
 	</span>
 	<%
-	if (session.getAttribute("userId") == null) { // 로그인 상태 확인
+	if (session.getAttribute("UserId") == null) { // 로그인 상태 확인
 		// 로그아웃 상태
 	%>
 	<script>
